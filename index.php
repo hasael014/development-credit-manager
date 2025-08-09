@@ -11,12 +11,15 @@ session_start();
 </head>
 
 <body>
-    <?php
+    <pre>
+
+        <?php
     var_dump($_SERVER);
     $apiKey = getenv('API_KEY');
     echo $apiKey;
-
+    
     ?>
+    </pre>
 </body>
 
 </html>
