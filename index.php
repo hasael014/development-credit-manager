@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    test
+    <?php
+    print_r($_SERVER);
+    ?>
 </body>
 </html>
