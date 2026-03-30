@@ -14,7 +14,7 @@ session_start();
     <pre>
 
         <?php
-    var_dump($_SERVER);
+    // var_dump($_SERVER);
     $apiKey = getenv('API_KEY');
     echo $apiKey;
     
